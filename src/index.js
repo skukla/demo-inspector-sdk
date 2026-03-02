@@ -12,3 +12,6 @@ export { tagBlock, tagSlot } from './eds.js';
 
 // GraphQL tracking
 export { wrapFetcher, trackQuery, trackData, detectSource } from './tracking.js';
+
+// Rules
+export { DEFAULT_RULES, mergeRules } from './rules.js';
