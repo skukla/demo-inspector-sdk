@@ -29,3 +29,5 @@ The Chrome extension detects these attributes:
 GraphQL tracking uses two window globals set by the extension's page bridge at `document_start`:
 - `window.__demoInspectorTrackQuery` — receives query metadata (`{id, name, source, timestamp, responseTime}`)
 - `window.__demoInspectorStoreData` — receives full response data (`{queryName, source, data, timestamp}`)
+
+**Releasing:** a push to `main` reaches nobody; a published release does. See [RELEASING.md](RELEASING.md).
